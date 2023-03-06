@@ -34,6 +34,13 @@ app.get("/", (request,response) => {
     response.send("<h1>Hello from server</h1>")
 })
 
+
+app.get("/welcome", (request,response) => {
+    console.log("Request received...")
+    console.log(request.url)
+    response.send("<h1>Hello from Cyclic!</h1>")
+})
+
 /* 
 create endpoint -> /help
 http://localhost:8080/help
