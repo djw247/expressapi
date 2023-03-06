@@ -12,7 +12,6 @@ let app = express()
 
 app.use(cors())
 
-// TEST
 // configure express app to parse incoming request payload
 // in JSON format
 app.use(express.json())
