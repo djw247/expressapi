@@ -1,4 +1,0 @@
-initialize npm in cmd using npm init
-install express using npm i express
-
-npm i cors mongoose
