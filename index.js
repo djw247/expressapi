@@ -1,10 +1,16 @@
 // import express from node_modules
+const { response } = require('express')
 let express = require('express')
 // import mongoose
 let mongoose = require('mongoose')
 let songs = require('./songs')
+
+let cors = require('cors')
 // create express app
 let app = express()
+
+
+app.use(cors)
 
 // configure express app to parse incoming request payload
 // in JSON format
