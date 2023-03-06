@@ -5,12 +5,12 @@ let express = require('express')
 let mongoose = require('mongoose')
 let songs = require('./songs')
 
-let cors = require(cors())
+let cors = require('cors')
 // create express app
 let app = express()
 
 
-app.use(cors)
+app.use(cors())
 
 // configure express app to parse incoming request payload
 // in JSON format
