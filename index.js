@@ -5,7 +5,7 @@ let express = require('express')
 let mongoose = require('mongoose')
 let songs = require('./songs')
 
-let cors = require('cors')
+let cors = require(cors())
 // create express app
 let app = express()
 
